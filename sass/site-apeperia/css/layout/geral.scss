@@ -1,0 +1,33 @@
+/* Geral * */
+
+body {
+  font-family : "Roboto Slab",
+                serif;
+}
+
+.container {
+  width  : 940px;
+  margin : 0 auto;
+  @media #{$mq-mobile} {
+    .container {
+      width : 90%;
+    }
+  }
+}
+
+.titulo-secao {
+  text-align      : center;
+  text-decoration : underline;
+  font-size       : 2em;
+}
+
+.blog,
+.contato,
+.planos,
+.sobre {
+  padding : 3em 0 6em 0;
+}
+
+h2 {
+  margin-top : 0;
+}
