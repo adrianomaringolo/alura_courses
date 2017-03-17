@@ -1,6 +1,6 @@
-performance-web/node_modules
-performance-web/dist
-gulp/projeto/node_modules
-gulp/projeto/dist
-sass/site-apeperia/.sass-cache
+performance-web/node_modules/
+performance-web/dist/
+gulp/projeto/node_modules/
+gulp/projeto/dist/
+sass/site-apeperia/.sass-cache/
 
