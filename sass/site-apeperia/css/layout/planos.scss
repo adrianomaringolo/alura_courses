@@ -9,7 +9,7 @@
 
 .plano {
   background: white;
-  width: 18em;
+  width: multiplica-pela-fonte(18);
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
@@ -67,16 +67,9 @@
   margin-left: 2em;
 }
 
-.icone-check, .icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
+@include all-icones-sprite-sprites;
+
+.icones-sprite-icone-ok, .icones-sprite-icone-x {
   width: 18px;
   height: 18px;
-}
-
-.icone-check {
-  background-position: -5px -5px;
-}
-
-.icone-x {
-  background-position: -33px -5px;
 }

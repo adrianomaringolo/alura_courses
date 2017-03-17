@@ -1,3 +1,15 @@
+/* line 56, icones-sprite/*.png */
+.icones-sprite-sprite, .icones-sprite-icone-ok, .icones-sprite-icone-x {
+  background-image: url('../imagens/icones-sprite-s7ea76dee1a.png');
+  background-repeat: no-repeat;
+}
+
+/* line 72, plataformas/*.png */
+.plataformas-sprite, .plataformas-logo-android, .plataformas-logo-apple, .plataformas-logo-blackberry, .plataformas-logo-windows {
+  background-image: url('../imagens/plataformas-s91620aa4cf.png');
+  background-repeat: no-repeat;
+}
+
 /* line 14, helpers/mixins.scss */
 .plataformas li, .social li a {
   text-indent: -9999px;
@@ -656,24 +668,24 @@ header .container {
   margin: 1em 1.5em 0 0;
 }
 
-/* line 38, layout/sobre.scss */
-.plataformas li:nth-child(1) {
-  background-image: url(../imagens/logo-apple.png);
+/* line 84, ../../../../../.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.plataformas-logo-android {
+  background-position: 0 0;
 }
 
-/* line 42, layout/sobre.scss */
-.plataformas li:nth-child(2) {
-  background-image: url(../imagens/logo-android.png);
+/* line 84, ../../../../../.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.plataformas-logo-apple {
+  background-position: 0 -80px;
 }
 
-/* line 46, layout/sobre.scss */
-.plataformas li:nth-child(3) {
-  background-image: url(../imagens/logo-windows.png);
+/* line 84, ../../../../../.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.plataformas-logo-blackberry {
+  background-position: 0 -161px;
 }
 
-/* line 50, layout/sobre.scss */
-.plataformas li:nth-child(4) {
-  background-image: url(../imagens/logo-blackberry.png);
+/* line 84, ../../../../../.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.plataformas-logo-windows {
+  background-position: 0 -226px;
 }
 
 /** Planos **/
@@ -690,7 +702,7 @@ header .container {
 /* line 10, layout/planos.scss */
 .plano {
   background: white;
-  width: 18em;
+  width: 288px;
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
@@ -759,21 +771,20 @@ header .container {
   margin-left: 2em;
 }
 
-/* line 70, layout/planos.scss */
-.icone-check, .icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
+/* line 84, ../../../../../.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icones-sprite-icone-ok {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../../.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icones-sprite-icone-x {
+  background-position: 0 -23px;
+}
+
+/* line 72, layout/planos.scss */
+.icones-sprite-icone-ok, .icones-sprite-icone-x {
   width: 18px;
   height: 18px;
-}
-
-/* line 76, layout/planos.scss */
-.icone-check {
-  background-position: -5px -5px;
-}
-
-/* line 80, layout/planos.scss */
-.icone-x {
-  background-position: -33px -5px;
 }
 
 /** Blog **/
@@ -923,8 +934,8 @@ footer::before {
 
 /* line 30, layout/footer.scss */
 footer .container {
-  padding-top: 3em;
-  height: 6.5em;
+  padding-top: 48px;
+  height: 104px;
   position: relative;
 }
 
