@@ -1,0 +1,24 @@
+{
+  "files.exclude": {
+    "performance-web/node_modules/": "explorerExcludedFiles",
+    "performance-web/dist/": "explorerExcludedFiles",
+    "gulp/projeto/node_modules/": "explorerExcludedFiles",
+    "gulp/projeto/dist/": "explorerExcludedFiles",
+    "sass/site-apeperia/.sass-cache/": "explorerExcludedFiles",
+    "sass/site-apeperia/css/.sass-cache/": "explorerExcludedFiles",
+    "angular2/alurapic/.tmp": "explorerExcludedFiles",
+    "angular2/alurapic/.DS_Store": "explorerExcludedFiles",
+    "angular2/alurapic/.DS_Store?": "explorerExcludedFiles",
+    "angular2/alurapic/.dpl/": "explorerExcludedFiles",
+    "angular2/alurapic/./vscode/": "explorerExcludedFiles",
+    "angular2/alurapic/client/.vscode/": "explorerExcludedFiles",
+    "angular2/alurapic/server/.vscode/": "explorerExcludedFiles",
+    "angular2/alurapic/server/node_modules/git": "explorerExcludedFiles",
+    "angular2/alurapic/client/node_modules/": "explorerExcludedFiles",
+    "angular2/alurapic/client/typings/": "explorerExcludedFiles",
+    "angular2/alurapic/client/app/**/*.js": "explorerExcludedFiles",
+    "angular2/alurapic/client/app/**/*.map": "explorerExcludedFiles",
+    "angular2/alurapic/client/npm-debug.log": "explorerExcludedFiles",
+    "angular2/alurapic/server/npm-debug.log": "explorerExcludedFiles"
+  }
+}

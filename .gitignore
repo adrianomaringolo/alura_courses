@@ -13,7 +13,7 @@ angular2/alurapic/.dpl/
 angular2/alurapic/./vscode/
 angular2/alurapic/client/.vscode/
 angular2/alurapic/server/.vscode/
-angular2/alurapic/server/node_modules/
+angular2/alurapic/server/node_modules/git 
 angular2/alurapic/client/node_modules/
 angular2/alurapic/client/typings/
 angular2/alurapic/client/app/**/*.js
