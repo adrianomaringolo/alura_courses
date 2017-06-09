@@ -5,6 +5,8 @@ gulp/projeto/dist/
 sass/site-apeperia/.sass-cache/
 sass/site-apeperia/css/.sass-cache/
 
+**/.DS_Store
+
 
 angular2/alurapic/.tmp
 angular2/alurapic/.DS_Store
