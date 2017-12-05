@@ -22,3 +22,6 @@ angular2/alurapic/client/app/**/*.js
 angular2/alurapic/client/app/**/*.map
 angular2/alurapic/client/npm-debug.log
 angular2/alurapic/server/npm-debug.log
+
+react/cdc-admin/node_modules/
+react/cdc-admin/build
